@@ -18,3 +18,15 @@ Should the file fufill the size requirement, it will be disassembled from machin
 - Zydis
 - Imgui
 - Imgui_club
+
+## Program outline
+1. Creation of valid code, waiting to be compiled.
+2. Code is compiled via compiler (Black box) and generates an appropriate executable.
+3. The sections (main hex/assembly) are extracted from the .exe.
+4. Are then parsed and loaded into the emulator appropriately.
+5. Emulator deciphers the symbols/hex and disassembles the hex back into assembly.
+<br/><br/>
+![alt text](https://github.com/PencilPushr/CE301/blob/main/openday.png?raw=true)
+<br/><br/>
+The user to compare and measure against another program the contents of sections, length of asm instructions.
+The emulator also allows for single stepping to view execution process.
