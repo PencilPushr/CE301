@@ -13,3 +13,8 @@ This likely requires shrinking the executable, such as:
  - ... etc.
 
 Should the file fufill the size requirement, it will be disassembled from machine code back into x86 assembly.
+
+## Libraries
+- Zydis
+- Imgui
+- Imgui_club
