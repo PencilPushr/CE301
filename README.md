@@ -24,9 +24,9 @@ Should the file fufill the size requirement, it will be disassembled from machin
 2. Code is compiled via compiler (Black box) and generates an appropriate executable.
 3. The sections (main hex/assembly) are extracted from the .exe.
 4. Are then parsed and loaded into the emulator appropriately.
-5. Emulator deciphers the symbols/hex and disassembles the hex back into assembly.
+5. Emulator deciphers the symbols/hex and disassembles the hex back into assembly. (Shown via the emulator (above) and IDA pro 7.5 (below))
 <br/><br/>
 ![alt text](https://github.com/PencilPushr/CE301/blob/main/openday.png?raw=true)
 <br/><br/>
-The user to compare and measure against another program the contents of sections, length of asm instructions.
+The user can compare and measure against another program the contents of sections, length of asm instructions.
 The emulator also allows for single stepping to view execution process.
